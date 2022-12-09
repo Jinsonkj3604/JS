@@ -1,0 +1,336 @@
+.outerbody{
+    background-color: #ece3e3;;
+    display: flow-root;
+    margin: 25px;
+    height: 830px;
+   
+   }
+   
+   .contentbody{
+     background-color:#fbfbfb;; 
+     margin: 35px;
+     height: 680px;
+   }
+   
+   #head{
+       text-align: center;
+       font-size: large;
+       font-family: initial;
+       font-weight: bold;
+       font-style: normal;
+       color:black;
+   }
+   
+   #subhead{
+       text-align: center;
+       font-size: xx-large;
+       font-style: italic;
+       font-weight: bold;
+   }
+   .p-3 bd-red-300{
+    color: black;
+     background-color:#ea868f;
+     height: 600px;
+     margin-top: 17px;
+     overflow: scroll;
+     enable-background: true;
+   }
+   
+   .product_list{
+     float: left;
+   }
+   
+   .product_image{
+     width: 450px;
+     height: 385px;
+     overflow: scroll;
+   
+   }
+   img{
+     margin-top: 25px;
+     width: 450px;
+     height: 300px;
+     border:5px solid black;
+   }
+   .product_discription{
+     height: 220px;
+     text-align: center;
+     background-color: floralwhite;
+     width: 450px;
+     margin-left: 60px;
+     color: black;
+   
+   }
+   .p_name{
+     text-align: center;
+     margin-top: 8px;
+     font-size: xx-large;
+     font-weight: bold;
+     font-style: revert;
+      
+   }
+   .price_div{
+     background-color:  #fdfdfd;;
+     margin-bottom: 20px;
+     padding-top: 1px;
+     text-align: center;
+     padding-bottom: 1px;
+     width: 110px;
+     border-radius: 50%;
+     margin-left: 38%;
+     font-style: oblique;
+      
+   }
+   /* .product_form{
+     background-image: linear-gradient(rgb(104, 104, 140),black);
+     height: 95px;
+     padding-top: 2;
+     padding-top: 5px;
+     font-size: large;
+     font-weight: bold;
+   
+   } */
+   #q_input{
+     width: 100px;
+     margin-right: 30px;
+     text-align: center;
+   
+   }
+   #addcart{
+     width: 106px;
+     font-size: medium;
+     margin-top: 12px;
+     margin-left: 12px;
+     border-block-color: rgb(213, 226, 226);
+     border-block-width:thin;
+     border-radius: 10px;
+     background-image:linear-gradient(rgb(218, 142, 142),white);
+     
+     height: 39px;
+   
+   }
+   #addcart:hover{
+     background-image:linear-gradient(rgb(230, 103, 103),rgb(78, 68, 68));
+   }
+   #viewcart{
+     float: right;
+     margin-right: 30px;
+     font-size: x-large;
+     margin-top: -25px;
+     background-image: -moz-radial-gradient(#f0ebeb,#bacab5);
+   }
+   #viewcart:hover{
+     background-image: -moz-radial-gradient(#5a5353,#6c7a67);
+   }
+   
+   .cartcontainer{
+     background-color: rgb(255, 254, 254);
+     width: 1772px;
+     height: 900px;
+     margin-left: 95px;
+   }
+   
+   .raw-md-6{
+     overflow: scroll;
+     float: left;
+     width: 50%;
+     background-color: rgb(206, 224, 240);
+     height: 830px;
+     margin-top: 20px;
+     margin-left: 10px;
+   
+   
+   }
+   
+   .raw-md-6,#cartbody{
+     overflow: scroll;
+     float: left;
+     width: 48%;
+     background-color: #f1f9ff;
+     height:780px;
+     margin-top: 30px;
+     margin-left: 10px;
+   }
+   
+   .raw-md-4{
+     height: 250px;
+     background-color: rgb(235, 235, 235);
+     margin: 5px;
+     
+   
+   }
+   .product_container{
+     background-color: rgb(255, 255, 255);
+     height: 350px;
+     box-sizing: border-box;
+     margin: 2px;
+   }
+   .cart_discription{
+     float: right;
+     margin-right: 50px;
+     margin-top: 40px;
+   }
+   #proceed{
+     background-color: #7dee7d;
+     font-weight: bolder;
+     margin-top: 5px;
+   }
+   #proceed:hover{
+     background-color: green;
+   }
+   #remove{
+     background-color: #f57874;
+     font-weight: bolder;
+   }
+   #remove:hover{
+     background-color: brown;
+   }
+   #goback{
+     background-color: #e9f9f3;
+     font-size: initial;
+     font-weight: bolder;
+      color: black;
+      width: 80px;
+      height: 27px;
+      float: right;
+   }
+   #goback:hover{
+     background-color: rgb(55, 55, 71);
+     color: white;
+   }
+   th{
+     border: 1px solid #9d8a9b;
+     text-align: center;
+     padding: 25px;
+     padding-right: 5px;
+   
+   }
+   table{
+     font-family: 'Courier New', Courier, monospace;
+     border-collapse: collapse;
+     margin-left: 25%;
+     margin-top: 10%;
+     width: 58%;
+   }
+   #val{
+     float: right;
+     margin-right: 30px;
+     background-color: chartreuse;
+     font-size: initial;
+     font-weight: bolder;
+     color: currentColor;
+   }
+   #validate:hover{
+     background-color: #4d4242;
+   }
+   .valid_form{
+     border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 20px;
+     width: 780px;
+     margin-left: 230px;
+     height: 715px;
+     padding-top: 35px;
+   }
+   .valid_form,input[type=text]{
+     padding: 12px 20px;
+     margin: 5px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+
+   
+   }
+   #checked{
+     width: 100%;
+     /* background-color: #4CAF50; */
+     color: white;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     background-color: black;
+     font-size: large;
+     font-weight: bolder;
+   }
+   .item1,.item2,.item3{
+    text-align: center;
+    height: 475px;
+    margin: 3px;
+    background-color: #eaf9f4;
+    width: 805px;
+   }
+   .productimage{
+    margin-top: 25px;
+    width: 450px;
+    height: 260px;
+   }
+
+   .p1,.p2,.p3{
+    margin: 8px;
+    background-color: #ece6e6;
+    text-align: center;
+    padding: 5px;
+   }
+   #totalamt{
+    margin: 15px;
+    background-color: #7fe6c5;
+    text-align: center;
+    padding: 3px;
+   }
+   .personaldetails{
+    padding: 15px;
+    background-color: #d2cccc;
+   }
+   .carddetails{
+    padding: 10px;
+     background-color: #eadada;
+   }
+   #clear{
+    background-color:  #f7dfdf;
+    width: 80px;
+    font-weight: bolder;
+    float: right;
+    height: 26px;
+    font-size: larger;
+   }
+   #amount{
+    width: 100px;
+    font-weight: bolder;
+    background-color: #34d9a2;
+   }
+   #exit{
+    float: right;
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    font-size: large;
+   }
+   
+#addcart1,#addcart2,#addcart3{
+  width: 72px;
+  font-weight: bolder;
+  height: 35px;
+  background-color: #fbd6fb;
+}  
+#remove1,#remove2,#remove3{
+  width: 75px;
+  height: 26px;
+  background-color: #e6dbcf;
+  font-size: medium;
+}
+#btn{
+  background-color: aquamarine;
+  font-size: larger;
+  font-weight: bolder;
+}
+#btn:hover{
+  background-color: #7dee7d;
+}
+#itemnos1,#itemnos2,#itemnos3{
+  width: 80px;
+}
+
+   

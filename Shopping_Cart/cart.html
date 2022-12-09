@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="cart.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head>
+<body style="background-color:rgb(246, 250, 246); height: 70%;">
+
+  <div class="outerbody">
+    <header id="head"><h2><strong>ONLINE SHOPPING CART</strong></h2></header>
+       
+    <div class="contentbody">
+
+      <header id="subhead"> Products </header>&nbsp;&nbsp;
+      <button id="viewcart"><span class="glyphicon glyphicon-shopping-cart"></span></button><br>
+    
+      <div class="p-3 bd-red-300">
+
+        <div class="raw">
+
+
+            <div class="col-md-4"  id="productbox1" style="text-align: center;">
+                <img src="boatportable1450.jpg" class="productimage">
+
+                <div class="product_discription">
+                   <header class="p_name">BoatStone 1450</header>  <!--IMAGE ADDING 1-->
+
+                    <div class="price_div">
+                      <h2><span class="glyphicon glyphicon-usd"></span>88&nbsp;<span class="glyphicon glyphicon-tags"></span></h2>   <!--1 PRICE ADDING -->
+                    </div>
+                   <button id="addcart1"> Add TO Cart</button>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-md-4" id="productbox2" style="text-align: center;">
+                <img src="smartwatch.jpg" class="productimage">
+
+               <div class="product_discription">
+                 <header class="p_name">smartWatch</header>    <!--IMAGE ADDING 2-->
+
+                    <div class="price_div">
+                       <h2><span class="glyphicon glyphicon-usd"></span>99&nbsp;<span class="glyphicon glyphicon-tags"></span></h2>   <!--2 PRICE ADDING -->
+                    </div>
+
+                    <button id="addcart2"> Add TO Cart</button>
+               </div>
+
+            </div>
+
+
+
+            <div class="col-md-4" id="productbox3" style="text-align: center;">  <!--IMAGE ADDING 3-->
+                 <img src="headset.jpeg" class="productimage"> 
+
+               <div class="product_discription">
+                   <header class="p_name">HeadSet</header>
+
+                   <div class="price_div">
+                      <h2><span class="glyphicon glyphicon-usd"></span>65&nbsp;<span class="glyphicon glyphicon-tags"></span></h2>   <!--3 PRICE ADDING -->
+                    </div>
+
+                    <button id="addcart3"> Add TO Cart</button>
+                </div>
+
+            </div>
+
+        </div>
+      </div>
+    </div> 
+  
+  </div>
+    
+   
+ <!-- CLICKING CART BUTTON -->
+ <button id="clear">Clear Cart</button>
+ <button id="goback"><span class="glyphicon glyphicon-home"></span></button>
+
+  <div class="cartcontainer" style="width: 1700px; height: 890px;overflow: scroll; display: none;">  
+    <!-- <button id="clear">Clear Cart</button> -->
+
+    <div class="raw-md-6" id="cartbody">
+         
+
+        <!-- productbox1 button click -->
+
+        <div class="product1" style="display: none;" >
+
+            <div class="item1" style="text-align: center;">
+
+               <img src="boatportable1450.jpg">
+
+                <div>
+                    <h2 style="color: rgb(0, 0, 0);">BoatStone 1450</h2>  
+                  <h2 style="color: rgb(10, 10, 10);"><span class="glyphicon glyphicon-usd"></span>88&nbsp;<span class="glyphicon glyphicon-tags"></span></h2>   <!--1 PRICE ADDING -->
+                  <input class='p-3 bd-pink-200'id="itemnos1" placeholder="quantity" value="1" type="text"><br><button id="remove1">remove</button>
+                </div>
+                
+
+            </div>
+        </div>
+    
+
+
+        <!-- productbox2 button click -->
+
+        <div class="product2" style="display: none;" >
+
+            <div class="item2" style="text-align: center;">
+
+               <img src="smartwatch.jpg">
+
+                <div>
+                  <h2 style="color: rgb(0, 0, 0);">Smart Watch</h2>
+                  <h2 style="color: rgb(0, 0, 0);"><span class="glyphicon glyphicon-usd"></span>99&nbsp;<span class="glyphicon glyphicon-tags"></span></h2>   <!--1 PRICE ADDING -->
+                  <input class='p-3 bd-pink-200' id="itemnos2" placeholder="quantity" value="1" type="text"><br><button id="remove2">remove</button>
+                </div>
+            
+
+            </div>
+       </div>
+
+
+       <!-- productbox3 button click -->
+
+
+        <div class="product3" style="display: none;" >
+
+            <div class="item3" style="text-align: center;">
+
+                <img src="headset.jpeg">
+
+                <div>
+                    <h2 style="color: rgb(0, 0, 0);">Head Set</h2>
+                   <h2 style="color: rgb(0, 0, 0);"><span class="glyphicon glyphicon-usd"></span>65&nbsp;<span class="glyphicon glyphicon-tags"></span></h2>   <!--1 PRICE ADDING -->
+                   <input class='p-3 bd-pink-200' id="itemnos3" placeholder="quantity" value="1" type="text"><br><button id="remove3">remove</button>
+                </div>
+                
+
+            </div>
+
+        </div>
+
+        
+      
+       
+    </div>
+    <!-- <button id="goback">GO HOME</button> -->
+
+
+    <div class="raw-md-6" style="height: 900px;">     <!--CHECKING BODY-->
+      
+      <div class="ship_container" style="height: 780px;">
+            
+            <div class="p1" style="display: none;">
+                <p id="p1name"><h3 style="font-weight: bolder;">item: </h3><h3>Boat</h3></p>
+                <p id="p1price"><h3 style="font-weight: bolder;">price: </h3><h3>88</h3></p>
+                <p><h3 style="font-weight: bolder;">quantity:</h3> <h3 id="p1qty">1</h3></p>
+                <div style="display: none;" id="p1t"><h3 style="font-weight: bolder;"> Total:</h3> <h3 id="p1total">0</h3></div>
+            </div>
+
+            <div class="p2" style="display: none;">
+                <p id="p2name"><h3 style="font-weight: bolder;">item: </h3><h3>smartWatch</h3></p>
+                <p id="p2price"><h3 style="font-weight: bolder;">price: </h3><h3>99</h3></p>
+                <p><h3 style="font-weight: bolder;">quantity:</h3><h3 id="p2qty"> 1</h3></p>
+                <div style="display: none;" id="p2t"><h3 style="font-weight: bolder;">Total: </h3><h3 id="p2total">0</h3></div>
+            </div>
+
+            <div class="p3" style="display: none;">
+                <p id="p3name"><h3 style="font-weight: bolder;">item: </h3><h3>HeadSet</h3></p>
+                <p id="p3price"><h3 style="font-weight: bolder;">price: </h3><h3>65</h3></p>
+                <p><h3 style="font-weight: bolder;">quantity:</h3><h3 id="p3qty"> 1</h3></p>
+                <div style="display: none;" id="p3t"><h3 style="font-weight: bolder;">total: </h3><h3 id="p3total">0</h3></div>
+            </div>
+            <!-- <h4 style="font-weight: bold;">Click To Confirm your Total Amount: </h4><button id="amount">Check Amount</button> -->
+
+            <div id="totalamt" style="display: none;" >
+              <h2>Total Amount:<h2 id="total">-</h2>
+              <button id="val">VALIDATE</button>
+            </div>
+      </div>
+      <!-- <div id="totalamt" style="display: none;" >
+        <h2>Total Amount:<h2 id="total">-</h2>
+        <button id="val">VALIDATE</button>
+      </div> -->
+    
+
+    <div class="valid_form"  style="display: none;">   <!--VALIDATION FORM-->
+        <button id="exit"><span class="glyphicon glyphicon-remove"></span></button>
+      <form id="billingdetails">
+
+        <div class="personaldetails">
+
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Your name " maxlength="20" minlength="4">
+        <label for="lname">E-Mail:</label>
+        <input type="text" id="email" name="email" placeholder="123@mail.com">
+        <label for="city">city</label>
+        <input type="text" id="city" name="city" placeholder="city_name" maxlength="20" minlength="2">
+        <label for="mob">Mobile:</label>
+        <input type="tel" id="mobile" name="mobile" placeholder="10 digit number" maxlength="10">
+
+        </div>
+
+        <div class="carddetails">
+            <label for="cardnumber">card number:</label>
+            <input type="text" id="card" name="cardnumber" placeholder="1111-2222-3333-" maxlength="16" >
+            <label for="cvv">cvv/cvc</label>
+            <input type="text" id="cvv" name="cvv" placeholder="000">
+            <label for="month">exp_month</label>
+            <input type="month" id="emonth" name="expmonth" placeholder="01" maxlength="2">
+            <label for="year">exp_year</label>
+            <input type="text" id="expyear" name="expyear" placeholder="2000" maxlength="4">
+        </div>
+
+            <div style="background-color: rgb(188, 253, 188);">
+            <h3>Total Amount: <h4 id="payeble" style="font-weight: bolder;">-</h4></h3>
+            </div>
+    
+        <div>
+          <input type="submit" value="SUBMIT" id="btn">
+        </div>
+
+      </form> 
+    </div>
+       
+     
+  </div>
+  <div class="popup" style="width: 1200px; height: 100px; background-color: rgb(163, 207, 163);font-size: large; font-weight: bolder; display: none;">
+    <h2 style="text-align: center;">your order successfully placed</h2>
+    <button id="homepage">GoTo HomePage</button>
+  </div>
+
+  
+   
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+  <script src="cart.js"></script>
+
+</body>
+
+</html>
+
